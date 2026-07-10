@@ -1,6 +1,7 @@
 /* CSS Reset */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 * {
     margin: 0;
@@ -14,5 +15,29 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* font-family: "Playfair Display", serif; */
+
 /* Global CSS */
 
+.prof-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+
+
+.github-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
