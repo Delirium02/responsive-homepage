@@ -26,15 +26,17 @@ header {
     text-align: center;
 }
 
+.profile-pic-container {
+    z-index: 1;
+}
+
 .prof-pic {
     width: 450px;
     height: 600px;
     border-radius: 5px;
     object-fit: cover;
     object-position: center top;
-    box-shadow: 2px 2px 8px 5px rgba(42, 0, 98, 0.2);
-    border: 8px solid transparent; 
-    border-image: linear-gradient(315deg, #5578c7, #4f1ca8) 1; 
+    box-shadow: 1px 1px 8px 5px rgba(42, 0, 98, 0.2);
 }
 
 .about-me {
@@ -44,7 +46,7 @@ header {
     background-color: #fff;
     color: #792bff;
     padding: 20px;
-    box-shadow: 2px 2px 8px 5px rgba(42, 0, 98, 0.2);
+    box-shadow: 1px 1px 8px 5px rgba(42, 0, 98, 0.2);
 }
 
 .about-me p {
@@ -116,15 +118,15 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
-.github-icon {
+.icon {
     width: 24px;
     height: 24px;
     margin-right: 8px;
 }
 
 footer {
-    height: 100vh;
-    background: linear-gradient(315deg, #5376c7, #792bff);
+    height: 90vh;
+    background: linear-gradient(135deg, #277184, #033a51);
     display: flex;
     justify-content: space-evenly;
 }
@@ -135,6 +137,49 @@ footer {
     justify-content: center;
     color: #fff;
     gap: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-content h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+}
+
+.footer-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    padding: 0;
+    gap: 10px;
+}
+
+.contact-icon {
+    filter: invert(1);
+}
+
+.email a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.email a:hover {
+    color: #b6e0f8;
+    text-decoration: underline;
+}
+
+.socials-icons {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.footer-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
 }
 
 .footer-image {
