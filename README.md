@@ -1,10 +1,12 @@
-Responsive Homepage
+## Responsive Homepage
 
-Description:
-This homepage was completed as a project from the Odin Project. As such, I implemented its layout and design inspired from it. 
-However, I added my own touches and styles based on what I thought looked best and most optimized.
+### Description
+This project is a custom homepage built as part of The Odin Project curriculum. While the core layout requirements followed the project prompt, I customized the visual theme, color palette, and styling to create a clean, modern aesthetic. 
 
-Review:
-- This was a very fun project and a great practice of writing solid and proper HTML structure.
-- I attempted to research and grow my CSS knowledge and skills. This resulted in what I found to be a nice and clean CSS customization and theme design.
-- One of the focus points of this project was to gain expertise in using media queries to adjust the layout based on the screen it is being viewed through. This was somewhat challenging as it was a relatively new concept to me, however, with some research and time, I believe I understand it much better now.
+### Key Features & Learning Outcomes
+* **Semantic HTML Structure:** Focused on writing clean, accessible, and properly structured HTML to form a solid layout foundation.
+* **Responsive Design & Media Queries:** Implemented mobile-first design principles using CSS media queries to ensure the layout seamlessly adapts across mobile, tablet, and desktop viewports.
+* **Layout Architecture:** Practiced combining CSS Flexbox and Grid to handle complex structural elements, from side-by-side components to responsive project grids.
+
+### Challenges Overcame
+As media queries and responsive design were relatively new concepts to me, balancing fixed-size desktop elements with fluid mobile layouts was a significant challenge. Through documentation research and iterative debugging, I gained a strong practical understanding of how to manage viewports and prevent layout breakage across different devices.
